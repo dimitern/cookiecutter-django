@@ -27,3 +27,13 @@ django-debug-toolbar==1.9.1  # https://github.com/jazzband/django-debug-toolbar
 django-extensions==2.1.0  # https://github.com/django-extensions/django-extensions
 django-coverage-plugin==1.5.0  # https://github.com/nedbat/django_coverage_plugin
 pytest-django==3.4.2  # https://github.com/pytest-dev/pytest-django
+
+## Copied from: https://github.com/agconti/cookiecutter-django-rest
+
+# Developer Tools
+ipython==6.5.0
+
+# Testing
+mock==2.0.0
+
+##~ Copied from: https://github.com/agconti/cookiecutter-django-rest

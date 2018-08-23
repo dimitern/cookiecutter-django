@@ -1,4 +1,5 @@
 [run]
+branch = True
 include = {{cookiecutter.project_slug}}/*
 omit = *migrations*, *tests*
 plugins =

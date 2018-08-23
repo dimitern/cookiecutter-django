@@ -31,3 +31,14 @@ django-redis==4.9.0  # https://github.com/niwinz/django-redis
 # Django REST Framework
 djangorestframework==3.8.2  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
+
+## Copied from: https://github.com/agconti/cookiecutter-django-rest
+
+# Model Tools
+django_unique_upload==0.2.1
+
+# Rest apis
+Markdown==2.6.11
+django-filter==2.0.0
+
+## ~Copied from: https://github.com/agconti/cookiecutter-django-rest
