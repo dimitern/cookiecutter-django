@@ -38,7 +38,7 @@ USE_TZ = True
 # DATABASES
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
-{ % if cookiecutter.use_docker == 'y' - %}
+{% if cookiecutter.use_docker == 'y' -%}
 DATABASES = {
     'default': env.db('DATABASE_URL'),
 }
@@ -230,7 +230,7 @@ ADMINS = [
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
 MANAGERS = ADMINS
 
-{ % if cookiecutter.use_celery == 'y' - %}
+{% if cookiecutter.use_celery == 'y' -%}
 # Celery
 # ------------------------------------------------------------------------------
 INSTALLED_APPS += ['{{cookiecutter.project_slug}}.taskapp.celery.CeleryAppConfig']
@@ -287,7 +287,7 @@ REST_FRAMEWORK = {
     )
 }
 
-{ % if cookiecutter.use_compressor == 'y' - %}
+{% if cookiecutter.use_compressor == 'y' -%}
 # django-compressor
 # ------------------------------------------------------------------------------
 # https://django-compressor.readthedocs.io/en/latest/quickstart/#installation
